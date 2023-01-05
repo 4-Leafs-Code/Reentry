@@ -57,7 +57,7 @@ function App(props) {
               <Navbar />
               <Network />
             </Route>
-            <Route path='/messaging'>
+            <Route path='/messaging:receiverId'>
               <Navbar />
               <Messaging />
             </Route>
