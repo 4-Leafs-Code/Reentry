@@ -45,9 +45,6 @@ const Leftside = (props) => {
               <Link to="/network">
                 <span>Network</span>
               </Link>
-              <Link to="/functionalities">
-                <span>Welcome</span>
-              </Link>
             </div>
             <AiOutlineUserAdd />
           </nav>

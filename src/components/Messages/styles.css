@@ -1,0 +1,138 @@
+aside.emoji-picker-react {
+  width: auto !important;
+  background: none !important;
+}
+.emoji-picker-react .emoji-group:before {
+  background: none !important;
+  position: inherit !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+.chatWindow--pos {
+  display: flex;
+  margin: 0 15px;
+}
+.chatWindow--footer {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.chatWindow--pre {
+  display: flex;
+  margin: 0 15px;
+}
+.chatWindow--inputarea {
+  flex: 1;
+}
+.chatWindow--input {
+  width: 80%;
+  height: 40px;
+  border: 0px;
+  outline: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4a4a4a;
+  padding-left: 15px;
+}
+
+.newChat {
+  width: 35%;
+  max-width: 415px;
+  min-width: 260px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd;
+  transition: all ease 0.5s;
+}
+
+.newChat--head {
+  display: flex;
+  background-color: #00bfa5;
+  align-items: center;
+  padding: 60px 15px 15px 15px;
+}
+
+.newChat--backbutton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newChat--headtitle {
+  font-size: 19px;
+  height: 40px;
+  line-height: 40px;
+  flex: 1;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.newChat--list {
+  flex: 1;
+  overflow-y: auto;
+}
+.newChat--list::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+.newChat--list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.newChat--item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+.newChat--item:hover {
+  background-color: #f5f5f5;
+}
+.newChat--itemavatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.newChat--itemname {
+  font-size: 17px;
+  color: #000;
+}
+
+.menssageLine {
+  margin-bottom: 10px;
+  display: flex;
+}
+.menssageItem {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  max-width: 90%;
+}
+.menssageText {
+  font-size: 14px;
+  margin: 5px 40px 5px 5px;
+}
+
+.menssageDate {
+  font-size: 11px;
+  color: #999;
+  margin-right: 5px;
+  text-align: right;
+  height: 15px;
+  margin-top: -15px;
+}
